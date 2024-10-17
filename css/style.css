@@ -1,0 +1,96 @@
+body{
+    
+}
+.container {
+	font-size: 20px;
+	color: green;
+    /* background-color: tomato; */
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container p{
+    margin: 5px;
+}
+
+.container p:nth-child(2) {
+	color: yellow;
+    padding: 10px;
+    background: rgb(114, 114, 114);
+}
+
+.container p:nth-child(3) {
+	color: rgb(69, 0, 69);
+    background: tomato;
+    padding: 10px;
+}
+
+.main p {
+	color: green;
+	font-size: 20px;
+	
+}
+.content{
+    display: flex;
+    flex-direction: row;
+
+    gap: 15px;
+    margin-left: 150px;
+    padding-bottom: 80px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    box-shadow: black;
+    background-color: rgb(243, 243, 243);
+    width: 360px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); /* Horizontal offset, Vertical offset, Blur radius, Spread, and Color */
+    border-radius: 8px; 
+    padding: 20px;
+}
+.item > img{
+    height: auto;
+}
+.item h1{
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+.item p{
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+.text-content{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.parent{
+    background-color: orange;
+    width: 180px;
+    border-radius: 8px;
+    margin-left: 600px;
+    margin-bottom: 80px;
+}
+.child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    gap: 10px;
+    
+}
+.child img{
+    height: 28px;
+}
+.child p{
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+}
