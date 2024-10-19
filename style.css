@@ -1,0 +1,18 @@
+body{
+    margin: 0px 80px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.images{
+    width: 300px;
+
+    height: auto;
+    float: left;
+}
+.info{
+    display: block;
+    float: right;
+}
